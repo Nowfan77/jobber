@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jobber</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css"
+    integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    
+
+    .content {
+      background-image: url(redd.jpg);
+    }
+
+
+    .job-btn1 {
+      margin-left: 400px;
+    }
+
+    .job-btn2 {
+      margin-left: 500px;
+      display: inline-block;
+      margin-top: -65px;
+    }
+
+    .what-job {
+      display: flex;
+      gap: 168px;
+    }
+
+    .job2 {
+      display: flex;
+      gap: 123px;
+    }
+
+    .button-1:hover {
+      background-color: yellow !important;
+      color: white !important;
+
+
+    }
+
+    .button-2:hover {
+      background-color: yellow !important;
+      color: white !important;
+
+
+    }
+
+    .button-3:hover {
+      background-color: yellow !important;
+      color: white !important;
+
+
+    }
+
+    .button-4:hover {
+      background-color: yellow !important;
+      color: white !important;
+
+    }
+
+    video {
+      width: 100%;
+      z-index: -1;
+      opacity: 75%;
+      position: relative;
+    }
+
+    .content-up {
+      position: absolute;
+      margin-top: -500px;
+      margin-left: 120px;
+    }
+
+
+    .cal {
+      position: absolute;
+      left: 550px;
+      margin-top: -20px;
+
+    }
+
+      
+
+   
+    
+  </style>
+</head>
+
+
+
+<body>
+
+
+  <div class="bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <img class="img-fluid" src="jobber.png" alt="" height="50px" width="auto">
+        </div>
+
+        <div class="col-lg-9">
+
+          <nav class="navbar  navbar-expand-lg d-none d-lg-block">
+            <div class="position-relative">
+
+              <button class="navbar-toggler cal" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse call" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Page
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something here</a></li>
+                    </ul>
+                  </li>
+
+
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      listing
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Elements
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Employers
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Candidates
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  </li>
+                </ul>
+
+                <div class="p-3">
+                <a class="text-decoration-none text-light text-center" href=""> Sign In</a>
+
+                <button type="button" class="btn btn- bg-light">Post a job</button></div>
+
+              </div>
+              
+          </nav>
+          
+           
+             
+
+           
+            <nav class="navbar navbar-expand-lg d-lg-none">
+              <div class="position-relative">
+  
+                <button class="navbar-toggler cal" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse call" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Home
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Page
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something here</a></li>
+                      </ul>
+                    </li>
+  
+  
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        listing
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Elements
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Employers
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Candidates
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    </li>
+  
+  
+                  </ul>
+                </div>
+                
+            </nav>
+
+          <!-- </div> -->
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <video src="istockphoto-1329670608-640_adpp_is.mp4" autoplay muted loop></video>
+
+
+  <div class="container content-up ">
+    <div class="row d-flex">
+      <div class="col-lg-5 mt-5">
+        <h1 class="text-light">A stable career is out there. We will help you get it!</h1>
+        <h5 class="text-light">Search over 220,000 jobs today!</h5>
+        <button type="button" class="btn btn-warning">Find out more</button>
+      </div>
+
+      <div class="col-lg-7 bg-dark  w-50 text-light opacity-75 ">
+        <form>
+          <div class="mt-5 ms-5">
+
+
+            <div class="what-job">
+              <label for="exampleInputEmail1" class="form-label">What</label>
+              <span>e.g. Job, Company, Title</span>
+            </div>
+            <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Job, Company, Title">
+
+          </div>
+
+
+
+          <div class="mb-3  ms-5">
+            <div class="job2">
+              <label for="exampleInputPassword1" class="form-label">Where</label>
+              <span>e.g. City, County or Postcode</span>
+            </div>
+            <input type="password" class="form-control w-75" id="exampleInputPassword1"
+              placeholder="City, County or Postcode">
+
+          </div>
+
+          <button type="submit" class="btn btn-warning ms-5">🔍Find Jobs</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5 me-1">
+    <div class="row">
+      <div class="col-lg-4 opacity-50">
+        <img src="wk1.jpg" alt="" height="170px" width="auto">
+      </div>
+      <div class="col-lg-4 opacity-50">
+        <img src="wk2.jpg" alt="" height="170px" width="auto">
+      </div>
+      <div class="col-lg-4 opacity-50">
+        <img src="wk3.jpg" alt="" height="170px" width="auto">
+      </div>
+
+    </div>
+  </div>
+  <div class="container mt-3 me-1">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="ms-5">Job Alerts</h2>
+        <p>Some people will tell you there are four while others may tell you there are eight </p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="ms-5">A-Z Company</h2>
+        <p>The sad thing is the majority of people have no clue about what they truly want.</p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="ms-3">Job search app</h2>
+        <p>Focus is having the unwavering attention to complete what you set out to.</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-center ms-4">
+      <div class="col-lg-4">
+        <button type="button" class="button-1 btn btn-warning border-1 text-warning bg-light">Get job alerts</button>
+      </div>
+      <div class="col-lg-4 ">
+        <button type="button" class="button-2 btn btn-warning border-1 text-warning bg-light">Search Companies</button>
+      </div>
+      <div class="col-lg-4 ">
+        <button type="button" class="button-3 btn btn-warning border-1 text-warning bg-light">Get the app</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="row text-center">
+      <h1>Recently Posted Jobs</h1>
+      <p>There are basically six key areas to higher achievement.</p>
+    </div>
+  </div>
+  <div class="container-flui ">
+    <div class="row me-5 ms-5">
+      <div class="col-lg-4 mt-5 text-center border shadow-lg p-3 mb-5 bg-body rounded">
+        <img src="An.svg" alt="" class="mb-5" height="50px" width="auto">
+        <h4>Marketing and Communications</h4>
+        <p>via Fast Systems Consultants</p>
+        <h6>Wellesley Rd, London ✖Accountancy</h6>
+      </div>
+      <div class="col-lg-4 text-center mt-5 border shadow-lg p-3 mb-5 bg-body rounded">
+        <img src="wb.svg" alt="" class="mb-5" height="50px" width="auto">
+        <h4>Marketing and Communications</h4>
+        <p>via Pendragon Green Ltd</p>
+        <h6>Wellesley Rd, London ✖Accountancy</h6>
+      </div>
+      <div class="col-lg-4 text-center mt-5 border shadow-lg p-3 mb-5 bg-body rounded">
+        <img src="pr.svg" alt="" class="mb-5" height="50px" width="auto">
+        <h4>Marketing and Communications</h4>
+        <p>via Wight Sound Hearing LLC
+          New Castle, PA</p>
+        <h6>Wellesley Rd, London ✖Accountancy</h6>
+      </div>
+      <div class="text-center">
+        <button type="button" class="button-4 btn btn-light border-warning text-warning">View all opens</button>
+
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 d-flex">
+    <div class="row">
+      <div class="col-lg-7">
+        <h2>Grow your business faster with jobber premium advertising</h2>
+        <p>I truly believe Augustine’s words are true and if you look at history you know it is true.
+
+          We also know those epic stories, those modern-day legends surrounding the early failures of such supremely
+          successful folks as Michael Jordan and Bill Gates. We can look a bit further back in time to Albert Einstein
+          or even further back to Abraham Lincoln.
+
+          There are many people in the world with amazing talents who realize only a small percentage of their
+          potential. We all know people who live this truth.
+
+        </p>
+
+        <button type="button" class="button-5 btn btn-warning border-warning text-light mt-2">Checkout more</button>
+
+
+      </div>
+      <div class="col-lg-5">
+        <img src="wk2.jpg" alt="" height="250px" width="auto">
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4 text-center feature-info feature-info-border p-3">
+        <i class="fa-solid fa-file-contract"></i>
+        <h3>Advertise A Job</h3>
+        <p>Use a past defeat as a motivator <br>
+          Remind yourself you have nowhere <br> to go except.</p>
+      </div>
+      <div class="col-lg-4 text-center p-3">
+        <i class="fa-solid fa-file-contract"></i>
+        <h3>Recruiter Profiles</h3>
+        <p>Let success motivate you. Find a <br> picture of what epitomizes success <br> to you have already.</p>
+      </div>
+      <div class="col-lg-4 text-center p-3">
+        <i class="fa-solid fa-file-contract"></i>
+        <h3>Find Your Dream Job</h3>
+        <p>Make a list of your achievements <br> toward your long-term goal and <br> remind your.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content p-5">
+    <h3 class="text-center text-warning">Post or Get a job</h3>
+    <p class="text-center">Looking for Post OR Get a job? We have end-to-end solutions that can keep up with your
+      criteria.</p>
+    <a class="btn btn-warning mb-2 mb-sm-0 job-btn1" href="#">Post a job</a>
+    <a class="btn btn-light mb-2 mb-sm-0 job-btn2" href="#">Browse Jobs</a>
+  </div>
+  <div class="text-center mt-5">
+    <h1>Featured Candidates</h1>
+  </div>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="wk1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nowfan</h5>
+            <p class="card-text text-center">Recruiter Agency</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="wk4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nowfan</h5>
+            <p class="card-text text-center">Recruiter Agency</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="wk1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nowfan</h5>
+            <p class="card-text text-center">Recruiter Agency</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="wk4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Nowfan</h5>
+            <p class="card-text text-center">Recruiter Agency</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 border bg-dark text-light">
+    <div class="row p-3">
+      <div class="col-lg-3">
+        <h4>For Candidates</h4>
+        <p>Browse Jobs </p>
+        <p> Browse Categories </p>
+        <p> Submit Resume </p>
+        <p> Candidate Dashboard </p>
+        <p> Job Alerts </p>
+        <p> My Bookmarks </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>For Employers</h4>
+        <p> Browse Candidates </p>
+        <p> Browse Categories </p>
+        <p> Employer Dashboard </p>
+        <p> Add Job </p>
+        <p> Job Packages </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>Partner Sites</h4>
+        <p> Shortcodes </p>
+        <p> Job Page </p>
+        <p> Job Page Alternative </p>
+        <p> Resume Page </p>
+        <p> Blog </p>
+        <p> Contact </p>
+      </div>
+      <div class="col-lg-3">
+        <h4>Contact Us </h4>
+        <p>214 West Arnold St. New York, NY 10002 </p>
+        <p> +(123) 345-6789 </p>
+        <p> support@jobber.demo </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
